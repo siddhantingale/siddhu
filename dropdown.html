@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .dropdown { 
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(235, 100, 11, 0.555);
+            min-width: 160px;
+            box-shadow: 5px 6px 8px 5px rgb(255, 0, 98) ;
+            z-index: 2;
+            border: 3px solid;
+        }
+        .dropdown:hover .dropdown-content{
+            display: block;
+        }
+    </style>
+
+</head>
+<body style="color: rgb(220, 20, 130);" bgcolor="pink">
+    <div class="dropdown">
+     <span>FORT</span>
+     <div class="dropdown-content">
+         <a href="img/Raigad1.jpg">Raigad</a><br>
+         <a href="img/Rajgad.jpg">Rajgad</a><br>
+         <a href="img/panhala.jpg">Panhala</a><br>
+         <a href="img/Shivneri.jpg">Shivneri</a><br>
+         <a href="img/Hare.jpg">Harehareshawer</a><br>
+         <a href="img/Pratapgad.jpg">Pratapgad</a><br>
+     </div>
+    </div>
+</body>
+</html>
